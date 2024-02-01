@@ -1,0 +1,100 @@
+body{
+    background-color:rgb(146, 146, 146);
+}
+form{
+    position: absolute;
+    left: 40%;
+    top:10%;
+    right:40%;
+    border-radius: 20px;
+    width:18rem;
+   
+    height: 30rem;
+    padding: 20px 20px 20px 40px;
+    background-color: white;
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+.login p{
+    font-size: small;
+}
+.logo{
+   
+   margin-right: 7rem;
+   display:flex;
+   align-items: center;
+}
+.bluedot{
+    width:8px;
+    height: 8px;
+    border-radius: 40%;
+    background-color: blue;
+    margin-right: 10px;
+}
+.loginbtn{
+    text-decoration: none;
+    padding-left: 2px;
+    font-size: small;
+    margin-left: 1px;
+}
+.title{
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 1rem;
+}
+.sub1{
+    text-align: left;
+    font-weight: bold;
+}
+.sub2{
+    font-size:smaller;
+    opacity: 0.5;
+}
+input{
+    width:90%;
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: grey;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    opacity: 0.5;
+    outline: none;
+    background: transparent;
+}
+::placeholder{
+    font-size: smaller;
+}
+.btn{
+    margin-top: 30px;
+    width:90%;
+    color:blue;
+    background-color: rgb(80, 80, 255);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height:40px;
+}
+button{
+    background-color: rgb(80, 80, 255);
+    text-align: center;
+    border: none;
+    color: white;
+    font-size: x-small;
+    font-weight: bold;
+}
+.descript{
+    font-size:smaller;
+    opacity: 0.5;
+    margin-top: 1rem;
+    margin-bottom: 4px;
+}
+.tandc{
+text-decoration: none;
+opacity: 0.9;
+color: black;
+font-weight: 200;
+font-size: small;
+}
